@@ -15,7 +15,7 @@ public class Snake extends JFrame {
         setResizable(false);
         pack();
 
-        setTitle("Snake");
+        setTitle("Snake Game in Java");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
