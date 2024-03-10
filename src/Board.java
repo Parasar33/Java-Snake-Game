@@ -99,7 +99,7 @@ public class Board extends JPanel implements ActionListener {
         String msg = "Game Over";
         String scoreMsg = "Score: " + score;
         String highScoreMsg = "High Score: " + highScore;
-
+        String byeMsg = "Thanks for Playing :} ";
         Font small = new Font("Helvetica", Font.BOLD, 14);
         FontMetrics metr = getFontMetrics(small);
 
@@ -115,6 +115,7 @@ public class Board extends JPanel implements ActionListener {
         }
 
         g.drawString(highScoreMsg, (B_WIDTH - metr.stringWidth(highScoreMsg)) / 2, (B_HEIGHT / 2) + 40);
+        g.drawString(byeMsg, (B_WIDTH - metr.stringWidth(byeMsg)) / 2, (B_HEIGHT / 2) + 60);
     }
 
 
